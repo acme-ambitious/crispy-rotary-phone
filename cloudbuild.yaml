@@ -8,16 +8,3 @@ steps:
 
 substitutions:
   _PR_NUMBER: ''
-
-trigger:
-  github:
-    pullRequest:
-      branch: '.*'
-      commentControl: 'COMMENTS_ENABLED'
-  includedFiles:
-    - '**/*'
-  ignoredFiles:
-    - '**/*.md'
-  commentControl:
-    comments:
-      - '/gcbrun'
