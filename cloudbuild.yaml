@@ -8,3 +8,5 @@ steps:
 
 substitutions:
   _PR_NUMBER: ''
+options:
+  logging: CLOUD_LOGGING_ONLY
